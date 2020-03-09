@@ -1,0 +1,64 @@
+body{
+    background-color: skyblue;
+}
+
+h1{  
+  position: absolute;
+  top:140px;
+  left:100px;  
+}
+h2{
+    position: absolute;
+    top:170px;
+    left:130px; 
+}
+img{
+    height: 200px;
+    width: 300px;
+    transform:scaleX(-1);
+    position: absolute;
+    left: 800px;
+    top:90px;  
+}
+
+
+.bouton{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.mat-success {
+    
+    background-color:rgb(42, 209, 114);
+
+}
+
+.inscription{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.green{
+    color: green;
+    position: absolute;
+    bottom: 280px;
+    right:570px;
+    
+}
+.membre{
+    
+    position: absolute;
+    bottom: 280px;
+    right:675px;
+    
+}
+
+
