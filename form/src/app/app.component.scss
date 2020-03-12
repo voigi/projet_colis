@@ -1,5 +1,6 @@
 body{
-    background-color: skyblue;
+    background-image:url(/assets/home.jpg);
+    background-size: cover;
 }
 
 h1{  
@@ -7,18 +8,24 @@ h1{
   top:140px;
   left:100px;  
 }
-h2{
-    position: absolute;
-    top:170px;
-    left:130px; 
+.slogan{
+    
+    font-family: 'Cormorant Garamond', serif;
+    position: relative;
+    width: 100%;
+    top:10%;
+    left:32%;
 }
-img{
-    height: 200px;
-    width: 300px;
-    transform:scaleX(-1);
-    position: absolute;
-    left: 800px;
-    top:90px;  
+
+
+.malin{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+top: 130px;
+     
 }
 
 
@@ -34,6 +41,18 @@ img{
 .mat-success {
     
     background-color:rgb(42, 209, 114);
+    margin-left: 10px;
+
+}
+.mat-success {
+    
+    background-color:rgb(42, 209, 114);
+    margin-left: 10px;
+
+}.mat-blue {
+    
+    background-color:rgb(102, 112, 200);
+    margin-left: 10px;
 
 }
 
@@ -43,8 +62,16 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 10%;
+    right: 0.9%;
     
-    
+  
+     
+}
+.inscrit{
+     margin-bottom:-80px;
+      
 }
 .green{
     color: green;
@@ -60,5 +87,17 @@ img{
     right:675px;
     
 }
+.connect{
+    //border: solid white;
+    position: relative;
+    bottom: 10% ;
+    
+}
 
+.concept{
+   
+    position: absolute;
+    top:93%;
+    left:45%;
+}
 

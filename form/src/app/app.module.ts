@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import { CardComponent } from './card/card.component';
+import { ConceptComponent } from './concept/concept.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
+    ConceptComponent,
     
   ],
   imports: [
